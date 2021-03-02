@@ -1,0 +1,5 @@
+*.zip
+config.json
+.vscode
+__pycache_*
+tests.py
