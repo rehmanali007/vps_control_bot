@@ -5,6 +5,7 @@ import os
 dir_name = os.path.dirname(__file__)
 config_file_name = 'config.json'
 config_file = f'{dir_name}/{config_file_name}'
+print(config_file)
 config = json.load(open(config_file, 'r'))
 
 prefix = config.get('COMMAND_PREFIX')
